@@ -11,6 +11,6 @@
   "board" : "",
   "platform": ["arduino-esp32"],
   "license": "https://github.com/claws/BH1750",
-  "image" : "/static/gy30.PNG",
+  "image" : "/static/gy30.png",
   "homepage": "http://www.kbide.org"
 }
