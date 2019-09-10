@@ -2,7 +2,8 @@ Blockly.Blocks['bh1750'] = {
   init: function() {
     this.appendDummyInput()
         .appendField(new Blockly.FieldVariable("bh17501", null,["Plugin.bh1750"], ["Plugin.bh1750"]), "bh17501")
-        .appendField("begin");
+        .appendField("begin ADD")
+        .appendField(new Blockly.FieldTextInput("0x23"), "BH1750ADD");
     this.appendValueInput("BH1750SDA")
         .setCheck("Number")
         .appendField("SDA PIN");
